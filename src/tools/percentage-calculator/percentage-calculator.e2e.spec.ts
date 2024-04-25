@@ -6,7 +6,7 @@ test.describe('Tool - Percentage calculator', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('Percentage calculator - IT Tools');
+    await expect(page).toHaveTitle('Percentage calculator - DevMate');
   });
 
   test('Correctly works out percentages', async ({ page }) => {
