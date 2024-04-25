@@ -63,7 +63,7 @@ const tools = computed<ToolCategory[]>(() => [
           <div>
             DevMate
 
-            <template v-if="commitSha && commitSha.length > 0">
+            <!-- <template v-if="commitSha && commitSha.length > 0">
               -
               <c-link
                 target="_blank"
@@ -73,13 +73,13 @@ const tools = computed<ToolCategory[]>(() => [
               >
                 {{ commitSha }}
               </c-link>
-            </template>
+            </template> -->
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://github.com/CorentinTh">
+            <!-- <c-link target="_blank" rel="noopener" href="https://github.com/CorentinTh">
               Corentin Thomasset
-            </c-link>
+            </c-link> -->
           </div>
         </div>
       </div>
